@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    color: #212529;
+}
+a {
+    text-decoration: none;
+}
+
+.responsive {
+    height: auto;
+    width: 100%;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu {
+    padding: 20px 0;
+}
+
+.logo h3 {
+    font-size: 19px;
+    line-height: 1.2;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.header-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-icon {
+    display: none;
+    padding: 10px;
+}
+
+.call-btn {
+    width: 280px;
+    height: 50px;
+    background: #64314e;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 45px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+.call-btn a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.call-btn:hover {
+    background: #B26F95;
+}
+
+.call-number p {
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+}
+
+/*блок .afisha*/
+.afisha {
+    display: flex;
+    align-items: center;
+    min-height: 536px;
+    background-color: #00662b;
+
+}
+
+.afisha-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.afisha-wrapper img {
+    max-width: 660px;
+}
+
+.afisha-title {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 22px;
+    padding-bottom: 38px;
+}
+
+.btn-active {
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    max-width: 450px;
+    font-weight: 600;
+    background: #64314e;
+    border: none;
+    padding: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+.btn-active a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.btn-active:hover {
+    background: #B26F95;
+}
+
+/*блок .afisha*/
+
+/*блок .production*/
+.production-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.production-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 38px;
+}
+
+.production-text {
+    font-size: 24px;
+    font-family: "Arial Narrow";
+    padding-bottom: 38px;
+}
+
+.col.production-img-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-form-title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.catalog-form-button {
+    position: relative;
+    padding: 0 15px;
+}
+
+.catalog-form-button img {
+    position: absolute;
+    top: -60px;
+    left: -187px;
+    display: none;
+}
+
+/*блок .production*/
+
+/*блок .review*/
+.review-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.review-title {
+    width: 100%;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    background: #336633;
+    border-top: 4px solid #81b381;
+    padding: 25px 0;
+}
+
+.youtube-video {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+/*блок .review*/
+
+/*блок .footer*/
+.footer {
+    background: #316431;
+    min-height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+/*блок .footer*/
+
+/*блок .modal*/
+.modal {
+    position: fixed;
+    /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal:target{display: flex;}
+
+.close {
+    font-size: 40px;
+    opacity: 0.5;
+    position: absolute;
+    left: 92%;
+    top: 0;
+    text-decoration: none;
+}
+.close:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    background: #326532;
+    color: #fff;
+    width: 100%;
+    max-width: 433px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    position: relative;
+}
+
+.modal-header {
+    position: relative;
+    font-size: 28px;
+    word-wrap: normal;
+    padding-bottom: 20px;
+}
+
+.modal-body-input {
+    font-size: 16px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.modal-body-input input {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    background: #f2f2f2;
+    border: none;
+}
+.modal-body-input input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    overflow: visible;
+}
+.modal .btn-active {
+    font-size: 20px;
+    padding: 15px 10px;
+    border-radius: 7px;
+    white-space: nowrap;
+}
+/*блок .modal*/
+
+@media (min-width: 640px) {
+    .phone-icon {
+        display: block;
+    }
+
+    .catalog-form-title {
+        padding: 60px 0;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+    .call-number p,
+    .logo {
+        text-align: inherit;
+    }
+}
+
+@media (min-width: 960px) {
+    .afisha-title {
+        font-size: 60px;
+    }
+
+    .catalog-form-button img {
+        display: block;
+    }
+
+    .youtube-video {
+        padding-top: 45px;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (min-width: 1200px)
