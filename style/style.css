@@ -118,6 +118,11 @@ a {
     align-items: center;
     padding: 30px 0;
 }
+.afisha-wrapper .btn-active {
+    width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+}
 
 .afisha-wrapper img {
     max-width: 660px;
@@ -192,12 +197,13 @@ a {
 .catalog-form-button {
     position: relative;
     padding: 0 15px;
+    text-align: center;
 }
 
 .catalog-form-button img {
     position: absolute;
     top: -60px;
-    left: -170px;
+    left: -120px;
     display: none;
 }
 
@@ -209,6 +215,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .review-title {
@@ -410,7 +417,9 @@ a {
         width: 786px;
         height: 442px;
     }
-    
+    .review-wrapper {
+        padding-bottom: 0;
+    }
     
 
 
