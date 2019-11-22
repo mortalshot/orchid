@@ -53,7 +53,7 @@ a {
     font-size: 17px;
     font-style: italic;
     line-height: 1.5;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .header-call {
@@ -118,6 +118,7 @@ a {
     align-items: center;
     padding: 30px 0;
 }
+
 .afisha-wrapper .btn-active {
     width: 340px;
     padding: 20px;
@@ -258,16 +259,19 @@ a {
     font-weight: 600;
     padding: 20px 0;
 }
+
 .contacts b {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 900;
     font-size: 20px;
 }
+
 .line26 {
     line-height: 26px;
 }
+
 .contacts .italic {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-style: italic;
 }
 
@@ -350,6 +354,7 @@ a {
     border: none;
     font-size: 1rem;
 }
+
 .modal-body-input input:hover {
     background: #fff;
 }
@@ -359,9 +364,11 @@ a {
     font-style: italic;
     overflow: visible;
 }
+
 .modal-body-input input:hover::placeholder {
     font-style: normal;
 }
+
 .modal .btn-active {
     font-weight: 400;
     letter-spacing: 0.7px;
@@ -378,9 +385,7 @@ a {
         display: block;
     }
 
-    .catalog-form-title {
-        padding: 60px 0;
-    }
+
 
     .youtube-video iframe {
         width: 560px;
@@ -395,14 +400,25 @@ a {
     .logo {
         text-align: inherit;
     }
-    .modal .btn-active  {
+
+    .modal .btn-active {
         white-space: nowrap;
     }
+
+
 }
 
 @media (min-width: 960px) {
+    .afisha-wrapper {
+        padding: 40px 0;
+    }
+
     .afisha-title {
         font-size: 72px;
+    }
+
+    .catalog-form-title {
+        padding: 60px 0;
     }
 
     .catalog-form-button img {
@@ -412,15 +428,16 @@ a {
     .footer {
         margin-top: 40px;
     }
-    
+
     .youtube-video iframe {
         width: 786px;
         height: 442px;
     }
+
     .review-wrapper {
         padding-bottom: 0;
     }
-    
+
 
 
 }
